@@ -1,1 +1,1 @@
-FROM
+FROM dgraph/dgraph
