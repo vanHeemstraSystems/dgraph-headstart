@@ -5,3 +5,6 @@ services:
     build: .
     container_name: 'dgraph'
     privileged: true
+    ports:
+      - 8000:8000
+      - 9080:9080
