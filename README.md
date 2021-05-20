@@ -28,6 +28,7 @@ Here’s the complimentary video for this blog post. It’ll walk you through th
 - For Dgraph official documentation, visit https://dgraph.io/docs.
 - For discussions about Dgraph     , visit https://discuss.dgraph.io.
 - For fully-managed Dgraph Cloud   , visit https://dgraph.io/cloud.
+- For Get Started - Quickstart Guide - Dgraph documentation , visit https://discuss.dgraph.io/t/get-started-quickstart-guide-dgraph-documentation/
 
 ## 200 - Running Dgraph
 
