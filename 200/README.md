@@ -75,7 +75,7 @@ Now you should be able to see the ratel web interface at http://localhost:8000
 
 Choose ***Local Bundle*** - Launch Offline
 
-![image](https://user-images.githubusercontent.com/12828104/119000233-396d7700-b98b-11eb-90e3-9ea25dfdb0b0.png)
+![image](https://user-images.githubusercontent.com/12828104/119002626-54d98180-b98d-11eb-9669-859ab567a883.png)
 
 First start the DGraph container (see next section), then enter this URL in Dgraph server URL: ```http://[hostname]:8080``` (this is the port of the DGraph container)
 
