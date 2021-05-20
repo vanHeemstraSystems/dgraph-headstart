@@ -60,6 +60,53 @@ $ docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:l
 - The ```--rm``` causes Docker to automatically remove the container when it exits.
 - The ```-it``` runs Docker interactively (so you get a pseudo-TTY with STDIN).
 
+You will be prompted like below:
+
+```
+Warning: This standalone version is meant for quickstart purposes only.
+         It is NOT RECOMMENDED for production environments.
+...
+Dgraph version   : v21.03.0
+Dgraph codename  : rocket
+Dgraph SHA-256   : b4e4c77011e2938e9da197395dbce91d0c6ebb83d383b190f5b70201836a773f
+Commit SHA-1     : a77bbe8ae
+Commit timestamp : 2021-04-07 21:36:38 +0530
+Branch           : HEAD
+Go version       : go1.16.2
+jemalloc enabled : true
+
+For Dgraph official documentation, visit https://dgraph.io/docs.
+For discussions about Dgraph     , visit https://discuss.dgraph.io.
+For fully-managed Dgraph Cloud   , visit https://dgraph.io/cloud.
+
+Licensed variously under the Apache Public License 2.0 and Dgraph Community License.
+Copyright 2015-2021 Dgraph Labs, Inc.
+...
+I0520 13:10:14.433914      25 run.go:568] Bringing up GraphQL HTTP API at 0.0.0.0:8080/graphql
+I0520 13:10:14.433931      25 run.go:569] Bringing up GraphQL HTTP admin API at 0.0.0.0:8080/admin
+...
+I0520 13:10:14.433959      25 run.go:597] HTTP server started.  Listening on port 8080
+...
+I0520 13:10:19.435206      25 admin.go:824] Error reading GraphQL schema: Please retry again, server is not ready to accept requests.
+I0520 13:10:19.439752      25 pool.go:162] CONNECTING to localhost:7080
+I0520 13:10:19.540762      25 groups.go:902] Leader idx=0x1 of group=1 is connecting to Zero for txn updates
+I0520 13:10:19.540788      25 groups.go:914] Got Zero leader: localhost:5080
+I0520 13:10:19.543202      25 groups.go:491] Serving tablet for: 0-dgraph.type
+I0520 13:10:19.544741      25 groups.go:491] Serving tablet for: 0-dgraph.drop.op
+I0520 13:10:19.546588      25 groups.go:491] Serving tablet for: 0-dgraph.graphql.schema
+I0520 13:10:19.548072      25 groups.go:491] Serving tablet for: 0-dgraph.graphql.xid
+I0520 13:10:19.549293      25 groups.go:491] Serving tablet for: 0-dgraph.graphql.p_query
+I0520 13:10:19.549509      25 groups.go:166] Server is ready
+I0520 13:10:19.549546      25 access_ee.go:408] ResetAcl closed
+I0520 13:10:19.549555      25 access_ee.go:318] RefreshAcls closed
+I0520 13:10:20.236574      23 raft.go:540] CID set for cluster: 0e6bd371-c5f6-40fe-bc48-0904ad9fc136
+...
+I0520 13:10:24.437692      25 admin.go:835] No GraphQL schema in Dgraph; serving empty GraphQL API
+...
+
+```
+
+
 Check the running container:
 
 ```
