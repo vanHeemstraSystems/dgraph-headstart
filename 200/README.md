@@ -30,6 +30,8 @@ services:
       - 8000:8000 # Web UI
       - 8080:8080 # REST API
       - 9080:9080 # GraphQL API
+    volumes:
+      - ~/dgraph:/dgraph
 ```
 containers/dgraph/sample.docker-compose.yml
 
@@ -54,7 +56,7 @@ more ...
 Build and run the dgraph container:
 
 ```
-$ docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:latest
+$ docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 -v ~/dgraph:/dgraph dgraph/standalone:latest
 ```
 
 - The ```--rm``` causes Docker to automatically remove the container when it exits.
