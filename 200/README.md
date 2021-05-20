@@ -154,4 +154,7 @@ Now when we revisit ratel at http://[hostname]:8000 you will see that the DGraph
 
 ![image](https://user-images.githubusercontent.com/12828104/119003136-c9acbb80-b98d-11eb-992d-44cbdcecb0aa.png)
 
+After clicking "***Continue****" button the Console window shows:
+
+![image](https://user-images.githubusercontent.com/12828104/119003760-463f9a00-b98e-11eb-8fb7-f03f39f63664.png)
 more ...
