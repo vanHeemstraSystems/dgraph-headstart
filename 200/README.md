@@ -53,6 +53,18 @@ more ...
 
 ## 200 - Using Docker run
 
+### 100 - Ratel
+
+Build and run the ratel container:
+
+```
+$ docker run --rm -it --name ratel -p 8000:8000 dgraph/ratel
+```
+
+You can also use ratel online at https://play.dgraph.io/
+
+### 200 - DGraph
+
 Build and run the dgraph container:
 
 ```
