@@ -55,12 +55,18 @@ Build and run the dgraph container:
 
 ```
 $ docker run --rm -it -p 8000:8000 -p 8080:8080 -p 9080:9080 dgraph/standalone:latest
-...
-...
-kdkdkdkdkdllds login:
 ```
 
 - The ```--rm``` causes Docker to automatically remove the container when it exits.
 - The ```-it``` runs Docker interactively (so you get a pseudo-TTY with STDIN).
+
+Check the running container:
+
+```
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                                    NAMES
+073752b2fa54        dgraph/standalone   "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:8000->8000/tcp, 0.0.0.0:8080->8080/tcp, 0.0.0.0:9080->9080/tcp   unruffled_allen
+```
+Success!
 
 more ...
