@@ -6,7 +6,7 @@ Ensure that Docker is installed and running on your machine.
 
 Now, it’s just a matter of running the following command, and you have Dgraph up and running.
 
-## 100 - using docker-compose (recommended)
+## 100 - Using docker-compose (recommended)
 
 Have the Dockerfile as follows:
 
