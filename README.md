@@ -23,3 +23,6 @@ Here’s the complimentary video for this blog post. It’ll walk you through th
 
 [Video: Getting started with Dgraph #1: running, mutations, and queries](https://youtu.be/u73ovhDCPQQ)
 
+## 200 - Running Dgraph
+
+more ...
