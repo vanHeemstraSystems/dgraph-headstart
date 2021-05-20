@@ -71,7 +71,9 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 Now you should be able to see the ratel web interface at http://localhost:8000
 
-https://user-images.githubusercontent.com/12828104/118998575-d92a0580-b989-11eb-832f-548e0468942e.png
+![image](https://user-images.githubusercontent.com/12828104/118998575-d92a0580-b989-11eb-832f-548e0468942e.png)
+
+Choose ***Local Bundle*** - Launch Offline
 
 ***Note***: You can also use ratel online at https://play.dgraph.io/
 
