@@ -29,7 +29,7 @@ services:
     ports:
       - 8000:8000 # Web UI
       - 8080:8080 # REST API
-      - 9080:9080 # ?? API
+      - 9080:9080 # GraphQL API
 ```
 containers/dgraph/sample.docker-compose.yml
 
