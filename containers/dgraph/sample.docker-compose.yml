@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  dgraph:
+    build: .
+    container_name: 'dgraph'
+    privileged: true
