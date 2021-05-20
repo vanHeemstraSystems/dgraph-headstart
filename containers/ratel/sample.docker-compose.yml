@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  ratel:
+    build: .
+    container_name: 'ratel'
+    privileged: true
