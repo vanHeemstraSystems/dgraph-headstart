@@ -11,6 +11,8 @@ Welcome to getting started with Dgraph. Dgraph is an open-source, transactional,
 
 In this tutorial, we’ll learn how to build the following graph on Dgraph.
 
+![image](https://user-images.githubusercontent.com/12828104/118938625-250b8900-b94f-11eb-988e-357bdfe0c078.png)
+
 In the process, we’ll learn about:
 
 - Running Dgraph using the dgraph/standalone docker image.
