@@ -75,6 +75,10 @@ Now you should be able to see the ratel web interface at http://localhost:8000
 
 Choose ***Local Bundle*** - Launch Offline
 
+![image](https://user-images.githubusercontent.com/12828104/119000233-396d7700-b98b-11eb-90e3-9ea25dfdb0b0.png)
+
+More ...
+
 ***Note***: You can also use ratel online at https://play.dgraph.io/
 
 ### 200 - DGraph (requires Ratel)
