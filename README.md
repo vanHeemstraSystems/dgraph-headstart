@@ -25,6 +25,10 @@ Here’s the complimentary video for this blog post. It’ll walk you through th
 
 [Video: Getting started with Dgraph #1: running, mutations, and queries](https://youtu.be/u73ovhDCPQQ)
 
+- For Dgraph official documentation, visit https://dgraph.io/docs.
+- For discussions about Dgraph     , visit https://discuss.dgraph.io.
+- For fully-managed Dgraph Cloud   , visit https://dgraph.io/cloud.
+
 ## 200 - Running Dgraph
 
 See [README.md](./200/README.md)
