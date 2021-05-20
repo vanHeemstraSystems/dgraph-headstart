@@ -61,9 +61,19 @@ Build and run the ratel container:
 $ docker run --rm -it --name ratel -p 8000:8000 -d dgraph/ratel
 ```
 
-You can also use ratel online at https://play.dgraph.io/
+Check if the container is running:
 
-### 200 - DGraph
+```
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+5fe22d3227b4        dgraph/ratel        "/usr/local/bin/dgra…"   5 seconds ago       Up 4 seconds        0.0.0.0:8000->8000/tcp   ratel
+```
+
+Now you should be able to see the ratel web interface at http://localhost:8000
+
+***Note***: You can also use ratel online at https://play.dgraph.io/
+
+### 200 - DGraph (requires Ratel)
 
 Build and run the dgraph container:
 
