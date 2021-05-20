@@ -77,6 +77,8 @@ Choose ***Local Bundle*** - Launch Offline
 
 ![image](https://user-images.githubusercontent.com/12828104/119000233-396d7700-b98b-11eb-90e3-9ea25dfdb0b0.png)
 
+First start the DGraph container (see next section), then enter this URL in Dgraph server URL: ```http://[hostname]:8080``` (this is the port of the DGraph container)
+
 More ...
 
 ***Note***: You can also use ratel online at https://play.dgraph.io/
@@ -86,7 +88,7 @@ More ...
 Build and run the dgraph container:
 
 ```
-$ docker run --rm -it --name dgraph -p 8000:8000 -p 8080:8080 -p 9080:9080 -v ~/dgraph:/dgraph dgraph/standalone:latest
+$ docker run --rm -it --name dgraph -p 8080:8080 -p 9080:9080 -v ~/dgraph:/dgraph dgraph/standalone:latest
 ```
 
 - The ```--rm``` causes Docker to automatically remove the container when it exits.
@@ -144,7 +146,7 @@ Check the running container:
 ```
 $ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                                    NAMES
-073752b2fa54        dgraph/standalone   "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:8000->8000/tcp, 0.0.0.0:8080->8080/tcp, 0.0.0.0:9080->9080/tcp   unruffled_allen
+073752b2fa54        dgraph/standalone   "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:8080->8080/tcp, 0.0.0.0:9080->9080/tcp   unruffled_allen
 ```
 Success!
 
