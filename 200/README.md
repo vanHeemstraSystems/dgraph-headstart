@@ -150,4 +150,8 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 ```
 Success!
 
+Now when we revisit ratel at http://[hostname]:8000 you will see that the DGraph server is successfully connected to (green icon):
+
+![image](https://user-images.githubusercontent.com/12828104/119003136-c9acbb80-b98d-11eb-992d-44cbdcecb0aa.png)
+
 more ...
