@@ -58,7 +58,7 @@ more ...
 Build and run the ratel container:
 
 ```
-$ docker run --rm -it --name ratel -p 8000:8000 dgraph/ratel
+$ docker run --rm -it --name ratel -p 8000:8000 -d dgraph/ratel
 ```
 
 You can also use ratel online at https://play.dgraph.io/
