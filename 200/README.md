@@ -88,7 +88,7 @@ More ...
 Build and run the dgraph container:
 
 ```
-$ docker run --rm -it --name dgraph -p 8080:8080 -p 9080:9080 -v ~/dgraph:/dgraph dgraph/standalone:latest
+$ docker run --rm -it --name dgraph -p 8080:8080 -p 9080:9080 -v ~/dgraph:/dgraph -d dgraph/standalone:latest
 ```
 
 - The ```--rm``` causes Docker to automatically remove the container when it exits.
@@ -140,13 +140,12 @@ I0520 13:10:24.437692      25 admin.go:835] No GraphQL schema in Dgraph; serving
 
 ```
 
-
 Check the running container:
 
 ```
 $ docker ps
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                                                                    NAMES
-073752b2fa54        dgraph/standalone   "/run.sh"           About an hour ago   Up About an hour    0.0.0.0:8080->8080/tcp, 0.0.0.0:9080->9080/tcp   unruffled_allen
+CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                                                      NAMES
+0ef3696a642a        dgraph/standalone:latest   "/run.sh"                55 seconds ago      Up 50 seconds       0.0.0.0:8080->8080/tcp, 8000/tcp, 0.0.0.0:9080->9080/tcp   dgraph
 ```
 Success!
 
