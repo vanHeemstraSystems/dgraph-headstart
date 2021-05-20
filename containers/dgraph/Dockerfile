@@ -1,1 +1,1 @@
-FROM dgraph/dgraph
+FROM dgraph/standalone
