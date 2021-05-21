@@ -27,7 +27,6 @@ services:
     container_name: 'dgraph'
     privileged: true
     ports:
-      - 8000:8000 # Web UI
       - 8080:8080 # REST API
       - 9080:9080 # GraphQL API
     volumes:
