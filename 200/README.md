@@ -76,7 +76,7 @@ Choose ***Local Bundle*** - Launch Offline
 
 ![image](https://user-images.githubusercontent.com/12828104/119002626-54d98180-b98d-11eb-9669-859ab567a883.png)
 
-First start the DGraph container (see next section), then enter this URL in Dgraph server URL: ```http://[hostname]:8080``` (this is the port of the DGraph container)
+First start the DGraph container (see next section), then enter this URL in Dgraph server URL: ```http://[hostname]:8080``` (this is the port of the DGraph container). As long as the DGraph container REST API service has not started on port 8080, the connection will show red in the above web ui.
 
 More ...
 
